@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "",
-    "database": "api_app",
+    "database": "api_MVS",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },

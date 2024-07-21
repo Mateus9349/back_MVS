@@ -6,7 +6,7 @@ const routes = require('./routes')
 
 const app = express();
 
-const port = 10000;
+const port = 9004;
 
 routes(app)
 
@@ -16,7 +16,7 @@ https.createServer({
     cert: fs.readFileSync('api/SSL/certificate.crt'),
     key: fs.readFileSync('api/SSL/private.key'),
     ca: fs.readFileSync('api/SSL/ca_bundle.crt')
-}, app).listen(port, ()=> console.log('Rodando em https'));
+}, app).listen(9005, ()=> console.log('Rodando em https'));
 
 
 

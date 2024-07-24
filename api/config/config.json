@@ -1,8 +1,8 @@
 {
   "development": {
     "username": "root",
-    "password": "",
-    "database": "api_MVS",
+    "password": "123456",
+    "database": "mvs",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
